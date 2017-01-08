@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_music3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rtc.anucha.kamonrat.baringame1.Music3"
+    android:background="@drawable/y3">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mp9"
+        android:id="@+id/imageButton614"
+        android:onClick="onClickwy"
+        android:layout_marginBottom="72dp"
+        android:background="@color/colorAccent"
+        android:layout_alignBottom="@+id/imageButton615"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mp10"
+        android:id="@+id/imageButton615"
+        android:onClick="onClickwz"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton616"
+        android:layout_alignLeft="@+id/imageButton614"
+        android:layout_alignStart="@+id/imageButton614"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mp11"
+        android:id="@+id/imageButton616"
+        android:onClick="onClickxa"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton617"
+        android:layout_alignLeft="@+id/imageButton615"
+        android:layout_alignStart="@+id/imageButton615"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mp12"
+        android:id="@+id/imageButton617"
+        android:onClick="onClickxb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton616"
+        android:layout_alignStart="@+id/imageButton616"
+        android:background="@color/colorAccent" />
+
+</RelativeLayout>

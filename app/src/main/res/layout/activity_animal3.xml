@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rtc.anucha.kamonrat.baringame1.Animal3"
+    android:background="@drawable/i3">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms10"
+        android:id="@+id/imageButton30"
+        android:onClick="onClickph"
+        android:layout_marginTop="73dp"
+        android:background="@color/colorAccent"
+        android:layout_alignTop="@+id/imageButton29"
+        android:layout_alignLeft="@+id/imageButton29"
+        android:layout_alignStart="@+id/imageButton29" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms11"
+        android:id="@+id/imageButton31"
+        android:onClick="onClickpi"
+        android:layout_below="@+id/imageButton30"
+        android:layout_alignLeft="@+id/imageButton30"
+        android:layout_alignStart="@+id/imageButton30"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorAccent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms12"
+        android:id="@+id/imageButton32"
+        android:onClick="onClickpj"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton31"
+        android:layout_alignStart="@+id/imageButton31" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/a4"
+        android:id="@+id/imageButton809"
+        android:background="@color/colorAccent"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageButton31"
+        android:layout_toEndOf="@+id/imageButton31"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms9"
+        android:id="@+id/imageButton29"
+        android:onClick="onClickpg"
+        android:layout_marginBottom="116dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_above="@+id/imageButton809"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

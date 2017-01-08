@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rtc.anucha.kamonrat.baringame1.Animal8"
+    android:background="@drawable/i8">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms32"
+        android:id="@+id/imageButton437"
+        android:onClick="onClickqd"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton436"
+        android:layout_alignStart="@+id/imageButton436" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms31"
+        android:id="@+id/imageButton436"
+        android:onClick="onClickqc"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton437"
+        android:layout_alignLeft="@+id/imageButton435"
+        android:layout_alignStart="@+id/imageButton435"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms30"
+        android:id="@+id/imageButton435"
+        android:onClick="onClickqb"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/imageButton436"
+        android:layout_alignLeft="@+id/imageButton430"
+        android:layout_alignStart="@+id/imageButton430" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms29"
+        android:id="@+id/imageButton430"
+        android:onClick="onClickqa"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton435"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <ImageButton
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/a4"
+        android:id="@+id/imageButton814"
+        android:background="@color/colorAccent"
+        android:scaleType="fitCenter"
+        android:layout_width="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

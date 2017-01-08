@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal27"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rtc.anucha.kamonrat.baringame1.Animal27"
+    android:background="@drawable/i27">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms105"
+        android:id="@+id/imageButton510"
+        android:onClick="onClicksy"
+        android:layout_marginBottom="219dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms106"
+        android:id="@+id/imageButton511"
+        android:onClick="onClicksz"
+        android:layout_marginTop="73dp"
+        android:layout_alignTop="@+id/imageButton510"
+        android:layout_alignLeft="@+id/imageButton510"
+        android:layout_alignStart="@+id/imageButton510"
+        android:background="@color/colorAccent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms107"
+        android:id="@+id/imageButton512"
+        android:onClick="onClickta"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton513"
+        android:layout_alignLeft="@+id/imageButton511"
+        android:layout_alignStart="@+id/imageButton511"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms108"
+        android:id="@+id/imageButton513"
+        android:onClick="onClicktb"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton512"
+        android:layout_alignStart="@+id/imageButton512" />
+
+</RelativeLayout>
