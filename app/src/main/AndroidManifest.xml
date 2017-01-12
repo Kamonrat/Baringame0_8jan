@@ -216,10 +216,10 @@
         <activity android:name=".Music48" />
         <activity android:name=".Music49" />
         <activity android:name=".Music50" />
-        <activity android:name=".ShowscoreActivity" />
-        <activity android:name=".Showscore1Activity" />
-        <activity android:name=".Showscore2Activity" />
-        <activity android:name=".Showscore3Activity"></activity>
+        <activity android:name=".Showscore" />
+        <activity android:name=".Showscore1" />
+        <activity android:name=".Showscore2" />
+        <activity android:name=".Showscore3"></activity>
     </application>
 
 </manifest>
