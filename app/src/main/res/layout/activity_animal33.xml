@@ -15,17 +15,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms129"
-        android:id="@+id/imageButton534"
-        android:onClick="onClicktw"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="214dp"
-        android:background="@color/colorAccent" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/ms130"
         android:id="@+id/imageButton535"
         android:onClick="onClicktx"
@@ -57,4 +46,15 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/imageButton536"
         android:layout_alignStart="@+id/imageButton536" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms129"
+        android:id="@+id/imageButton534"
+        android:onClick="onClicktw"
+        android:layout_marginBottom="156dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton537"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

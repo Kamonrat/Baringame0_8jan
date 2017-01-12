@@ -53,25 +53,9 @@
         app:srcCompat="@drawable/ms33"
         android:id="@+id/imageButton438"
         android:onClick="onClickqe"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="11dp"
         android:background="@color/colorAccent"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp"
         android:layout_above="@+id/imageButton439"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/a4"
-        android:id="@+id/imageButton815"
-        android:background="@color/colorAccent"
-        android:scaleType="fitCenter"
-        android:layout_marginRight="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

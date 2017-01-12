@@ -15,20 +15,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms61"
-        android:id="@+id/imageButton466"
-        android:onClick="onClickrg"
-        android:layout_marginBottom="84dp"
-        android:background="@color/colorAccent"
-        android:layout_marginLeft="57dp"
-        android:layout_marginStart="57dp"
-        android:layout_above="@+id/imageButton468"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/ms62"
         android:id="@+id/imageButton467"
         android:onClick="onClickrh"
@@ -60,5 +46,30 @@
         android:layout_alignLeft="@+id/imageButton468"
         android:layout_alignStart="@+id/imageButton468"
         android:background="@color/colorAccent" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/a4"
+        android:id="@+id/imageButton822"
+        android:background="@color/colorAccent"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms61"
+        android:id="@+id/imageButton466"
+        android:onClick="onClickrg"
+        android:layout_marginBottom="84dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton468"
+        android:layout_toLeftOf="@+id/imageButton822"
+        android:layout_toStartOf="@+id/imageButton822"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
 
 </RelativeLayout>

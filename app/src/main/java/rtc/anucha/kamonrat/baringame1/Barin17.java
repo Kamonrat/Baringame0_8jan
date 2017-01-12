@@ -32,5 +32,6 @@ public class Barin17 extends AppCompatActivity {
         ImageButton btn_start = (ImageButton) findViewById(R.id.imageButton102);
         Intent intent = new Intent(Barin17.this,Barin18.class);
         startActivity(intent);
+        finish();
     }
 }

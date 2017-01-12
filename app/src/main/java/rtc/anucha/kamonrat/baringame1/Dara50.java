@@ -32,5 +32,6 @@ public class Dara50 extends AppCompatActivity {
         ImageButton btn_start = (ImageButton) findViewById(R.id.imageButton425);
         Intent intent = new Intent(Dara50.this, Dara50.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -13,17 +13,6 @@
     android:background="@drawable/i10">
 
     <ImageButton
-        android:src="@drawable/ms37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton442"
-        android:onClick="onClickqi"
-        android:background="@color/colorAccent"
-        android:layout_marginBottom="226dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <ImageButton
         android:src="@drawable/ms38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,10 +42,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton522"
         android:onClick="onClickql"
-        android:layout_below="@+id/imageButton446"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/imageButton446"
-        android:layout_alignStart="@+id/imageButton446"
-        android:layout_marginTop="16dp"
-        android:background="@color/colorAccent" />
+        android:layout_alignStart="@+id/imageButton446" />
+
+    <ImageButton
+        android:src="@drawable/ms37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton442"
+        android:onClick="onClickqi"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="160dp"
+        android:layout_above="@+id/imageButton522"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

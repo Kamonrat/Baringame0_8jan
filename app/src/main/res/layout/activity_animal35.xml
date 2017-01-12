@@ -15,25 +15,24 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms137"
-        android:id="@+id/imageButton542"
-        android:onClick="onClickue"
-        android:layout_marginBottom="156dp"
+        app:srcCompat="@drawable/ms140"
+        android:id="@+id/imageButton545"
+        android:onClick="onClickuh"
         android:background="@color/colorAccent"
-        android:layout_above="@+id/imageButton545"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton544"
+        android:layout_alignStart="@+id/imageButton544" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms138"
-        android:id="@+id/imageButton543"
-        android:onClick="onClickuf"
-        android:layout_alignTop="@+id/imageButton542"
-        android:layout_alignLeft="@+id/imageButton542"
-        android:layout_alignStart="@+id/imageButton542"
-        android:layout_marginTop="70dp"
-        android:background="@color/colorAccent" />
+        app:srcCompat="@drawable/ms137"
+        android:id="@+id/imageButton542"
+        android:onClick="onClickue"
+        android:layout_marginBottom="162dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton545"
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -42,20 +41,21 @@
         android:id="@+id/imageButton544"
         android:onClick="onClickug"
         android:background="@color/colorAccent"
-        android:layout_below="@+id/imageButton543"
+        android:layout_above="@+id/imageButton545"
         android:layout_alignLeft="@+id/imageButton543"
         android:layout_alignStart="@+id/imageButton543"
-        android:layout_marginTop="11dp" />
+        android:layout_marginBottom="12dp" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms140"
-        android:id="@+id/imageButton545"
-        android:onClick="onClickuh"
+        app:srcCompat="@drawable/ms138"
+        android:id="@+id/imageButton543"
+        android:onClick="onClickuf"
         android:background="@color/colorAccent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageButton544"
-        android:layout_alignStart="@+id/imageButton544" />
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/imageButton544"
+        android:layout_alignLeft="@+id/imageButton542"
+        android:layout_alignStart="@+id/imageButton542" />
 
 </RelativeLayout>

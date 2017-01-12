@@ -15,30 +15,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms18"
-        android:id="@+id/imageButton38"
-        android:onClick="onClickpp"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="69dp"
-        android:layout_alignTop="@+id/imageButton37"
-        android:layout_alignLeft="@+id/imageButton37"
-        android:layout_alignStart="@+id/imageButton37" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms19"
-        android:id="@+id/imageButton39"
-        android:onClick="onClickpq"
-        android:background="@color/colorAccent"
-        android:layout_below="@+id/imageButton38"
-        android:layout_alignLeft="@+id/imageButton38"
-        android:layout_alignStart="@+id/imageButton38"
-        android:layout_marginTop="10dp" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/ms20"
         android:id="@+id/imageButton40"
         android:onClick="onClickpr"
@@ -54,24 +30,32 @@
         android:id="@+id/imageButton37"
         android:onClick="onClickpo"
         android:background="@color/colorAccent"
-        android:layout_marginBottom="115dp"
-        android:layout_marginLeft="27dp"
-        android:layout_marginStart="27dp"
-        android:layout_above="@+id/imageButton811"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginBottom="159dp"
+        android:layout_above="@+id/imageButton40"
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/a4"
-        android:id="@+id/imageButton811"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms19"
+        android:id="@+id/imageButton39"
+        android:onClick="onClickpq"
         android:background="@color/colorAccent"
-        android:scaleType="fitCenter"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/imageButton39"
-        android:layout_toEndOf="@+id/imageButton39"
-        android:layout_marginLeft="14dp"
-        android:layout_marginStart="14dp" />
+        android:layout_above="@+id/imageButton40"
+        android:layout_alignLeft="@+id/imageButton38"
+        android:layout_alignStart="@+id/imageButton38"
+        android:layout_marginBottom="13dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms18"
+        android:id="@+id/imageButton38"
+        android:onClick="onClickpp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton39"
+        android:layout_alignLeft="@+id/imageButton37"
+        android:layout_alignStart="@+id/imageButton37"
+        android:layout_marginBottom="14dp" />
 
 </RelativeLayout>

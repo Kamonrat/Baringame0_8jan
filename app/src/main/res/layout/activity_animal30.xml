@@ -15,41 +15,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms117"
-        android:id="@+id/imageButton444"
-        android:onClick="onClicktk"
-        android:layout_marginBottom="213dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@color/colorAccent" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms118"
-        android:id="@+id/imageButton523"
-        android:onClick="onClicktl"
-        android:layout_marginTop="68dp"
-        android:background="@color/colorAccent"
-        android:layout_alignTop="@+id/imageButton444"
-        android:layout_alignLeft="@+id/imageButton444"
-        android:layout_alignStart="@+id/imageButton444" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ms119"
-        android:id="@+id/imageButton524"
-        android:onClick="onClicktm"
-        android:layout_marginTop="11dp"
-        android:background="@color/colorAccent"
-        android:layout_below="@+id/imageButton523"
-        android:layout_alignLeft="@+id/imageButton523"
-        android:layout_alignStart="@+id/imageButton523" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/ms120"
         android:id="@+id/imageButton525"
         android:onClick="onClicktn"
@@ -57,5 +22,40 @@
         android:layout_alignLeft="@+id/imageButton524"
         android:layout_alignStart="@+id/imageButton524"
         android:background="@color/colorAccent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms119"
+        android:id="@+id/imageButton524"
+        android:onClick="onClicktm"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton525"
+        android:layout_alignLeft="@+id/imageButton523"
+        android:layout_alignStart="@+id/imageButton523"
+        android:layout_marginBottom="11dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms117"
+        android:id="@+id/imageButton444"
+        android:onClick="onClicktk"
+        android:layout_marginBottom="83dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton524"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms118"
+        android:id="@+id/imageButton523"
+        android:onClick="onClicktl"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton524"
+        android:layout_alignLeft="@+id/imageButton444"
+        android:layout_alignStart="@+id/imageButton444"
+        android:layout_marginBottom="10dp" />
 
 </RelativeLayout>

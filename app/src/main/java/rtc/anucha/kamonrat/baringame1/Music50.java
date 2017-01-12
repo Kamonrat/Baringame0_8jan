@@ -32,5 +32,6 @@ public class Music50 extends AppCompatActivity {
         ImageButton btn_start = (ImageButton) findViewById(R.id.imageButton805);
         Intent intent = new Intent(Music50.this,Music50.class);
         startActivity(intent);
+        finish();
     }
 }

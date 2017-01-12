@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/start2"
         android:id="@+id/imageButton426"
-        android:onClick="onClicks"
+        android:onClick="onClicks (MainActivity)"
         android:layout_alignParentBottom="true"
         android:background="@color/colorAccent"
         android:layout_alignParentLeft="true"

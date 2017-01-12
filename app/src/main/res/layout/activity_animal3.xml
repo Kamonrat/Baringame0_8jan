@@ -48,30 +48,14 @@
         android:layout_alignStart="@+id/imageButton31" />
 
     <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/a4"
-        android:id="@+id/imageButton809"
-        android:background="@color/colorAccent"
-        android:scaleType="fitCenter"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/imageButton31"
-        android:layout_toEndOf="@+id/imageButton31"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp" />
-
-    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ms9"
         android:id="@+id/imageButton29"
         android:onClick="onClickpg"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="161dp"
         android:background="@color/colorAccent"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_above="@+id/imageButton809"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_above="@+id/imageButton32"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
